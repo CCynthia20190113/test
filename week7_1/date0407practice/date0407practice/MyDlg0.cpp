@@ -1,0 +1,43 @@
+﻿// MyDlg0.cpp: 实现文件
+//
+
+#include "pch.h"
+#include "date0407practice.h"
+#include "MyDlg0.h"
+#include "afxdialogex.h"
+
+
+// MyDlg0 对话框
+
+IMPLEMENT_DYNAMIC(MyDlg0, CDialogEx)
+
+MyDlg0::MyDlg0(CWnd* pParent /*=nullptr*/)
+	: CDialogEx(IDD_DIALOG1, pParent)
+{
+	
+}
+
+MyDlg0::~MyDlg0()
+{
+}
+
+void MyDlg0::DoDataExchange(CDataExchange* pDX)
+{
+	CDialogEx::DoDataExchange(pDX);
+}
+
+
+BEGIN_MESSAGE_MAP(MyDlg0, CDialogEx)
+	ON_WM_CLOSE()
+END_MESSAGE_MAP()
+
+
+// MyDlg0 消息处理程序
+
+
+void MyDlg0::OnClose()
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+	
+	
+}
